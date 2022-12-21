@@ -1,0 +1,19 @@
+.nav {
+  grid-area: nav;
+  background-color: rgba(50, 56, 176, 0.929);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.link {
+  font-size: 30px;
+  color: black;
+}

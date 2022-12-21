@@ -1,0 +1,21 @@
+.content {
+  background-color: rgba(50, 56, 176, 0.929);
+  grid-area: content;
+  padding-left: 5px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.avatar__name {
+  padding-left: 10px;
+}
+

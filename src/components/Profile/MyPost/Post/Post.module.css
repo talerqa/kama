@@ -1,0 +1,32 @@
+.post {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.post__information {
+  display: flex;
+  align-items: center;
+}
+
+.post__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+}
+
+.post__name {
+  font-size: 30px;
+  color: #fff;
+  display: block;
+}
+
+.post__text {
+  font-size: 20px;
+  color: #fff;
+}
+
+.post__textarea {
+}

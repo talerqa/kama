@@ -2,6 +2,14 @@ ul li {
   list-style-type: none;
 }
 
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .app-wrapper {
   display: grid;
   width: 1200px;
@@ -12,34 +20,5 @@ ul li {
 
   grid-template-rows: 100px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
-}
-
-.header {
-  grid-area: header;
-  background-color: rgba(50, 56, 176, 0.929);
-  height: 100px;
-  display: flex;
-  align-items: center;
-  padding-left: 5px;
-}
-
-.header__img {
-  width: 80px;
-  height: 80px;
-}
-
-.nav {
-  grid-area: nav;
-  background-color: rgba(50, 56, 176, 0.929);
-}
-
-.content {
-  background-color: rgba(50, 56, 176, 0.929);
-  grid-area: content;
-}
-
-.avatar__img {
-  width: 60px;
-  height: 60px;
+  grid-gap: 3px;
 }
